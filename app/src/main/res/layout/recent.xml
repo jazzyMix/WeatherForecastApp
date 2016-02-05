@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <RelativeLayout    android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+     >
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/relative">
+
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="MORE DETAILS"
+    android:id="@+id/detail"
+    android:layout_marginTop="38dp"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginLeft="28dp"
+    android:layout_marginStart="28dp" />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="VIEW MAP"
+    android:id="@+id/map"
+    android:layout_alignTop="@+id/detail"
+    android:layout_toRightOf="@+id/detail"
+    android:layout_toEndOf="@+id/detail" />
+
+</RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/linearLayout"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+
+            android:layout_below="@+id/relative" >
+
+
+            <ImageView
+                android:layout_width="113dp"
+                android:layout_height="113dp"
+                android:id="@+id/imageView3"
+                android:src="@drawable/snow"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:gravity="center"
+
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/summary"
+                android:textStyle="bold"
+                android:textSize="32sp"
+                android:layout_centerHorizontal="true"
+
+                android:text="N.A"/>
+
+            <RelativeLayout
+                android:layout_width="172dp"
+                android:layout_height="match_parent">
+            <TextView
+                android:gravity="center"
+
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/temper"
+                android:textStyle="bold"
+                android:textSize="52sp"
+                android:layout_centerHorizontal="true"
+
+                android:text="N.A"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="degree"
+                    android:id="@+id/degree"
+                    android:layout_toRightOf="@+id/temper"
+                    android:layout_toEndOf="@+id/temper"
+                    android:layout_alignTop="@+id/temper" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:gravity="center"
+
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/min"
+
+                android:text="N.A"/>
+
+        </LinearLayout>
+
+
+
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/linearLayout"
+            android:layout_marginLeft="28dp"
+            android:id="@+id/recent_table"
+            android:stretchColumns="0,1"    >
+            android:textSize="32sp"
+
+            <TableRow  android:layout_marginTop="20dp">
+                <TextView
+                    android:textSize="22sp"
+
+                    android:text="Precipitation"/>
+
+                <TextView                    android:textSize="22sp"
+
+                    android:text="N.A"
+                    android:gravity="right"
+                    android:id="@+id/recent1"/>
+
+            </TableRow>
+
+
+            <TableRow   android:layout_marginTop="20dp">
+                <TextView
+                    android:textSize="22sp"
+
+                    android:text="Chance of Rain"/>
+
+                <TextView
+                    android:textSize="22sp"
+
+                    android:text="N.A"
+                    android:gravity="right"
+
+                    android:id="@+id/recent2"/>
+
+            </TableRow>
+
+
+            <TableRow   android:layout_marginTop="20dp">
+                <TextView
+                    android:textSize="22sp"
+
+                    android:text="Wind Speed"/>
+
+                <TextView
+                    android:textSize="22sp"
+
+                    android:text="N.A"
+                    android:gravity="right"
+
+                    android:id="@+id/recent3"/>
+
+            </TableRow>
+
+            <TableRow   android:layout_marginTop="20dp">
+                <TextView
+                    android:textSize="22sp"
+
+                    android:text="Dew Point"/>
+
+                <TextView
+                    android:textSize="22sp"
+
+                    android:text="N.A"
+                    android:gravity="right"
+
+                    android:id="@+id/recent4"/>
+
+            </TableRow>
+
+
+            <TableRow   android:layout_marginTop="20dp">
+                <TextView
+                    android:textSize="22sp"
+
+                    android:text="Humidity"/>
+
+                <TextView
+                    android:textSize="22sp"
+
+                    android:text="N.A"
+                    android:gravity="right"
+
+                    android:id="@+id/recent5"/>
+
+            </TableRow>
+
+            <TableRow   android:layout_marginTop="20dp">
+                <TextView
+                    android:textSize="22sp"
+
+                    android:text="Visibility"/>
+
+                <TextView
+                    android:textSize="22sp"
+
+                    android:text="N.A"
+                    android:gravity="right"
+
+                    android:id="@+id/recent6"/>
+
+            </TableRow>
+
+            <TableRow   android:layout_marginTop="20dp">
+                <TextView
+                    android:textSize="22sp"
+
+                    android:text="Sunrise"/>
+
+                <TextView
+                    android:textSize="22sp"
+
+                    android:text="N.A"
+                    android:gravity="right"
+
+                    android:id="@+id/recent7"/>
+
+            </TableRow>
+
+            <TableRow   android:layout_marginTop="20dp">
+                <TextView
+                    android:textSize="22sp"
+
+                    android:text="Sunset"/>
+
+                <TextView
+                    android:textSize="22sp"
+
+                    android:text="N.A"
+                    android:gravity="right"
+
+                    android:id="@+id/recent8"/>
+
+            </TableRow>
+
+
+
+
+
+        </TableLayout>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/fb"
+            android:src="@drawable/fb_icon"
+            android:layout_above="@+id/linearLayout"
+            android:layout_alignRight="@+id/recent_table"
+            android:layout_alignEnd="@+id/recent_table"
+            android:layout_marginRight="26dp"
+            android:layout_marginEnd="26dp" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+
+</ScrollView>

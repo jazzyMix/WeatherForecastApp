@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\WeatherMapApp4\app\build\intermediates\exploded-aar\com.hamweather\aeris-maps-library\1.0.0\jars\libs\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="D:\WeatherMapApp4\app\build\intermediates\pre-dexed\debug\gson-2.2.4-7bdde5c9906d4ea993e6b41f2817c9b9085c7e50.jar" />
+    </item>
+    <item
+        jar="D:\WeatherMapApp4\app\build\intermediates\exploded-aar\com.hamweather\aeris-maps-library\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="7d4a443dc36bed449ff3464c266f5adde520610a">
+        <dex dex="D:\WeatherMapApp4\app\build\intermediates\pre-dexed\debug\classes-66e7eba3152c73bb9338f97319be782cdcad8a42.jar" />
+    </item>
+    <item
+        jar="D:\WeatherMapApp4\app\build\intermediates\exploded-aar\com.hamweather\aeris-maps-library\1.0.0\jars\libs\aeris-android-lib-1.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="130f669d1ea092f43c643341bbdfb5929f4d0f5f">
+        <dex dex="D:\WeatherMapApp4\app\build\intermediates\pre-dexed\debug\aeris-android-lib-1.0.0-8df0a6ef9388463003d828f0aae2e82bfcb49e8a.jar" />
+    </item>
+    <item
+        jar="D:\WeatherMapApp4\app\build\intermediates\exploded-aar\com.hamweather\aeris-maps-library\1.0.0\jars\libs\picasso-2.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="74137f8d9aac26dd9463efe32271f2be8d41cda9">
+        <dex dex="D:\WeatherMapApp4\app\build\intermediates\pre-dexed\debug\picasso-2.2.0-59e6874ccef663ef69789ec9ee70a39b8458d6d1.jar" />
+    </item>
+
+</items>
